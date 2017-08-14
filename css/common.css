@@ -2,6 +2,7 @@ body {
 	background-color: #673AB7;
 	font-family: 'Roboto', serif;
 }
+
 .noselect {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -10,22 +11,26 @@ body {
 	-ms-user-select: none;
 	user-select: none;
 }
+
 #showcase {
 	overflow: visible !important;
 	visibility: hidden;
 }
+
 .c9-card {
   display: block;
-  width: 260px;
+  width: 330px;
   padding-top: 50px;
   padding: 50px 20px 10px;
   text-align: center;
   background-color: #fff;
   position: relative;
 }
+
 .c9-card p {
   font-size: 16px;
 }
+
 .c9-nav {
   width: 40px;
   height: 40px;
@@ -39,10 +44,12 @@ body {
   position: absolute;
   top: 38%;
 }
+
 .c9-nav:active,
 .c9-nav.down {
   background: rgba(255, 255, 255, 0.5);
 }
+
 .c9-nav.left {
   left: 32px;
 }
@@ -71,15 +78,33 @@ body {
   padding: 3px;
 }
 
+.c9-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 22px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 17px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.c9-btn:hover {
+  background-color: #ddd !important;
+  color: #999;
+}
+
 .c9-date {
 	font-family: 'Roboto', serif;
-	background: red;
+	background: rgba(255,255,255,0.2);
 	color: #fff;
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 700;
 	padding: 0 20px;
-	line-height: 30px;
+	line-height: 32px;
 	height: 32px;
 	margin-left: -45px;
 	padding-right: 38px;
@@ -89,6 +114,7 @@ body {
 	top: 0;
 	max-width: 100%;
 }
+
 .c9-date:after {
 	content: '';
 	width: 0;
@@ -112,4 +138,55 @@ body {
 	left: 0;
 	color: rgba(255,255,255,0.7);
 	font-size: 12px;
+}
+
+.c9-bg {
+  position: relative;
+  margin: -50px -20px 20px;
+  background-color: #33ccff;
+  min-height: 110px;
+  background-image: url('http://egitim.muhasebat.gov.tr/theme/mgmegitim/images/bg-2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.c9-card-color-1 .c9-btn,
+.c9-card-color-1 .c9-bg{
+  background-color: #FF1654;
+}
+
+.c9-card-color-2 .c9-btn,
+.c9-card-color-2 .c9-bg{
+  background-color: #1B98E0;
+}
+
+.c9-card-color-3 .c9-btn,
+.c9-card-color-3 .c9-bg{
+  background-color: #011627;
+}
+
+.c9-card-color-4 .c9-btn,
+.c9-card-color-4 .c9-bg{
+  background-color: #70C1B3;
+}
+
+.c9-card-color-5 .c9-btn,
+.c9-card-color-5 .c9-bg{
+  background-color: #247BA0;
+}
+
+.c9-card-color-6 .c9-btn,
+.c9-card-color-6 .c9-bg{
+  background-color: #2EC4B6;
+}
+
+.c9-card-color-7 .c9-btn,
+.c9-card-color-7 .c9-bg{
+  background-color: #FCA311;
+}
+
+.c9-card-color-8 .c9-btn,
+.c9-card-color-8 .c9-bg{
+  background-color: #540d6e;
 }
